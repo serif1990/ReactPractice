@@ -1,0 +1,31 @@
+.promoDiv {
+  height: 17em;
+  width: 37em;
+  position: absolute;
+  top: 38vh;
+  left: 20vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.mid-para {
+  padding: 0;
+  margin: 3px 0;
+}
+
+.top-promo {
+  font-size: small;
+}
+
+.mid-promo {
+  font-size: 63px;
+  font-weight: 600;
+  word-spacing: -6px;
+}
+
+.end-promo {
+  font-size: 23px;
+  word-spacing: -1px;
+}

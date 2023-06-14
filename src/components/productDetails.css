@@ -1,0 +1,126 @@
+.detailsContainer {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  border-top: 1px solid #ebebeb;
+}
+
+.detailsInnerContainer {
+  width: 80%;
+  height: inherit;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.imageContainer {
+  width: 50%;
+  height: 42rem;
+  padding: 2rem;
+  background-color: #ebebeb;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descriptionContainer {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4rem;
+}
+
+.imageContainer > img {
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.descriptionContainer > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.priceSection {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #c19a83;
+}
+
+.priceSection > span {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #54393e;
+}
+
+.qtyManupulation {
+  font-size: 18px;
+  height: 2.5rem;
+  width: 2.5rem;
+  border: 1px solid #ebebeb;
+  background-color: white;
+  cursor: pointer;
+}
+
+#form {
+  height: 36px;
+  border-radius: none;
+  text-align: center;
+}
+
+.add-to-cart {
+  height: 2.5rem;
+  width: 8.5em;
+  margin-left: 1.5em;
+  background-color: #838080;
+  border: 1px solid #838080;
+  color: white;
+  font-weight: 600;
+}
+
+.qty-btn:hover {
+  background-color: #838080;
+  color: white;
+}
+
+.add-to-cart:hover {
+  background-color: white;
+  color: #838080;
+  border: 1px solid #838080;
+  cursor: pointer;
+}
+
+.add-to-cart:active {
+  background-color: rgb(209, 206, 206);
+  color: #363434;
+  border: 1px solid #363434;
+  cursor: pointer;
+}
+
+.data-availablity-container {
+  width: 100%;
+  display: flex;
+  height: inherit;
+}
+
+.data-available-inner-container {
+  width: 50%;
+  display: flex;
+  height: inherit;
+  justify-content: right;
+  align-items: center;
+}
+
+.data-availablity-container p {
+  font-size: x-large;
+  transform: translate(50%);
+}
+
+.data-available-empty-container {
+  background-color: #c19a83;
+}
+
+#changeColor {
+  color: white;
+}

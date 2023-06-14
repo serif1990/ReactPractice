@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://websitedemos.net/furniture-shop-04/wp-content/uploads/sites/1116/2022/07/hero-01.jpg);
+  position: fixed;
+  z-index: -999;
+  background-repeat: no-repeat;
+}
+
+.upper-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.mid-main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
